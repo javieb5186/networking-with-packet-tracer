@@ -1,4 +1,4 @@
-# Network+ Packet Tracer Labs
+# Networking with Packet Tracer
 
 A collection of hands-on Cisco Packet Tracer projects created to reinforce networking concepts from the CompTIA Network+ certification and develop practical networking, administration, and troubleshooting skills.
 
@@ -16,19 +16,6 @@ Built a basic peer-to-peer network to understand how devices communicate directl
 
 The project started with two computers directly connected together and later expanded to additional devices using switching and wireless connectivity.
 
-### Topics Practiced
-
-- Peer-to-peer networking
-- IPv4 addressing
-- Subnet masks
-- Ethernet connectivity
-- Local network communication
-- ICMP
-- Ping testing
-- Basic wireless connectivity
-- Basic switching
-- Connectivity troubleshooting
-
 ### What I Learned
 
 I learned how devices on the same subnet communicate directly without requiring a router.
@@ -37,6 +24,8 @@ I also learned why additional network infrastructure such as switches and wirele
 
 ### Skills Practiced
 
+- Local network communication
+- Peer-to-peer networking
 - IPv4 configuration
 - Subnet configuration
 - Ethernet cabling
@@ -53,19 +42,6 @@ Built a larger network containing multiple network segments connected through a 
 
 Access switches were used to connect endpoint devices while higher-speed uplinks connected the access layer to the network backbone.
 
-### Topics Practiced
-
-- Network segmentation
-- Network backbones
-- Access switches
-- Core connectivity
-- Ethernet
-- Fiber uplinks
-- IPv4 addressing
-- Default gateways
-- Network design
-- Connectivity testing
-
 ### What I Learned
 
 I learned how larger networks can be divided into smaller segments while using a central backbone to provide connectivity between different parts of the network.
@@ -73,8 +49,11 @@ I learned how larger networks can be divided into smaller segments while using a
 This helped demonstrate the difference between endpoint connectivity and the higher-capacity connections used between network infrastructure devices.
 
 ### Skills Practiced
-
+- Network backbones
+- Network segmentation
 - Network topology design
+- Default gateways
+- Core connectivity
 - Ethernet switching
 - Fiber connectivity
 - IPv4 addressing
@@ -82,29 +61,13 @@ This helped demonstrate the difference between endpoint connectivity and the hig
 - Backbone design
 - Connectivity verification
 - Troubleshooting
+- Access switches
 
 ---
 
 ## 03 - Network Topologies
 
 Built several common network topologies to understand how network devices can be interconnected and how topology design affects redundancy and availability.
-
-### Topologies Explored
-
-- Point-to-Point
-- Hub-and-Spoke
-- Mesh
-
-### Topics Practiced
-
-- Physical topology
-- Logical topology
-- Redundancy
-- Device connectivity
-- Network paths
-- Centralized connectivity
-- Alternate paths
-- Network design
 
 ### What I Learned
 
@@ -114,12 +77,19 @@ A hub-and-spoke topology provides centralized connectivity but creates greater d
 
 ### Skills Practiced
 
+- Point-to-Point
+- Hub-and-Spoke
+- Mesh
 - Network topology design
 - Redundancy planning
 - Network path analysis
-- Device interconnection
 - Connectivity testing
 - Network documentation
+- Physical topology
+- Logical topology
+- Device connectivity
+- Centralized connectivity
+- Network design
 
 ---
 
@@ -129,7 +99,13 @@ Built a Layer 3 spine-and-leaf topology to explore modern data center network ar
 
 The topology provided multiple paths between leaf switches through the spine layer.
 
-### Topics Practiced
+### What I Learned
+
+I learned how spine-and-leaf architectures provide predictable paths and high levels of connectivity between devices within modern data centers.
+
+Unlike traditional hierarchical networks, every leaf connects to every spine, providing multiple paths through the network.
+
+### Skills Practiced
 
 - Spine-and-leaf architecture
 - Layer 3 links
@@ -139,18 +115,8 @@ The topology provided multiple paths between leaf switches through the spine lay
 - East-west traffic
 - Data center networking
 - Scalability
-
-### What I Learned
-
-I learned how spine-and-leaf architectures provide predictable paths and high levels of connectivity between devices within modern data centers.
-
-Unlike traditional hierarchical networks, every leaf connects to every spine, providing multiple paths through the network.
-
-### Skills Practiced
-
 - Data center topology design
 - Layer 3 addressing
-- Routing
 - Redundancy
 - Network path verification
 - Connectivity testing
@@ -164,18 +130,6 @@ Expanded networking practice beyond basic connectivity by working with routed ne
 
 The project focused on understanding how traffic moves between different networks rather than only between devices on the same LAN.
 
-### Topics Practiced
-
-- Routers
-- Routing tables
-- Default routes
-- Network-to-network communication
-- IPv4 addressing
-- Subnetting
-- Gateway configuration
-- Route verification
-- Packet forwarding
-
 ### What I Learned
 
 I learned how routers make forwarding decisions using destination networks and routing tables.
@@ -184,9 +138,15 @@ This reinforced the difference between Layer 2 communication within a LAN and La
 
 ### Skills Practiced
 
-- Router configuration
+- Routers
+- Default routes
+- Network-to-network communication
 - IPv4 addressing
 - Subnetting
+- Gateway configuration
+- Route verification
+- Packet forwarding
+- Router configuration
 - Routing
 - Default gateway configuration
 - Routing table analysis
@@ -199,7 +159,13 @@ This reinforced the difference between Layer 2 communication within a LAN and La
 
 Built a network security lab focused on controlling traffic between networks and understanding the role of security devices within network infrastructure.
 
-### Topics Practiced
+### What I Learned
+
+I learned how network security devices can control communication between different parts of a network rather than allowing unrestricted traffic between every device.
+
+The project reinforced the concept that network connectivity and network authorization are separate decisions.
+
+### Skills Practiced
 
 - Firewalls
 - Network security devices
@@ -209,18 +175,7 @@ Built a network security lab focused on controlling traffic between networks and
 - Trusted and untrusted networks
 - Security zones
 - Network security architecture
-
-### What I Learned
-
-I learned how network security devices can control communication between different parts of a network rather than allowing unrestricted traffic between every device.
-
-The project reinforced the concept that network connectivity and network authorization are separate decisions.
-
-### Skills Practiced
-
 - Firewall concepts
-- Traffic filtering
-- Network segmentation
 - Security policy concepts
 - Network security design
 - Connectivity verification
@@ -234,19 +189,6 @@ Built a site-to-site IPsec VPN between networks to understand how private traffi
 
 The project included VPN configuration, encryption settings, interesting-traffic definitions, and tunnel verification.
 
-### Technologies and Concepts
-
-- Site-to-site VPN
-- IPsec
-- IKE / ISAKMP
-- ESP
-- AES encryption
-- SHA-HMAC
-- Crypto ACLs
-- Crypto maps
-- Tunnel verification
-- ARP troubleshooting
-
 ### What I Learned
 
 I learned how IPsec protects traffic traveling between separate private networks.
@@ -257,14 +199,18 @@ Troubleshooting the lab also reinforced the importance of checking basic network
 
 ### Skills Practiced
 
-- Site-to-site VPN configuration
 - IPsec
 - IKE / ISAKMP
+- ESP
+- AES encryption
+- SHA-HMAC
+- Crypto maps
+- Tunnel verification
+- ARP troubleshooting
+- Site-to-site VPN configuration
 - Encryption configuration
 - Crypto ACL configuration
-- Crypto maps
 - VPN verification
-- ARP troubleshooting
 - Connectivity testing
 - Secure network design
 
@@ -274,19 +220,6 @@ Troubleshooting the lab also reinforced the importance of checking basic network
 
 Built an enterprise-style wireless networking environment to explore centralized wireless infrastructure rather than relying only on standalone wireless routers.
 
-### Topics Practiced
-
-- Wireless LANs
-- Wireless access points
-- Wireless LAN controllers
-- SSIDs
-- Wireless security
-- Authentication
-- Wireless channels
-- Client association
-- Wireless infrastructure
-- Enterprise wireless architecture
-
 ### What I Learned
 
 I learned how enterprise wireless environments differ from small home wireless networks.
@@ -295,14 +228,20 @@ Instead of configuring every access point independently, enterprise wireless dep
 
 ### Skills Practiced
 
+- Wireless LANs
+- Wireless access points
+- Wireless LAN controllers
+- Authentication
+- Wireless channels
+- Client association
+- Wireless infrastructure
+- Enterprise wireless architecture
 - Wireless network configuration
 - Access point configuration
-- Wireless controller concepts
 - SSID configuration
 - Wireless security
 - Client connectivity
 - Wireless troubleshooting
-- Enterprise wireless design
 
 ---
 
@@ -311,22 +250,6 @@ Instead of configuring every access point independently, enterprise wireless dep
 Built a VoIP environment using Cisco networking technologies and configured Quality of Service concepts to prioritize voice traffic.
 
 The project demonstrated how IP phones obtain configuration information, register for call control, exchange signaling information, and transmit voice traffic.
-
-### Technologies and Concepts
-
-- Voice over IP
-- Cisco Unified Communications Manager Express (CME)
-- IP phones
-- DHCP Option 150
-- SCCP
-- TCP signaling
-- RTP
-- UDP voice traffic
-- QoS
-- Traffic classification
-- Priority queuing
-- Policy maps
-- Service policies
 
 ### What I Learned
 
@@ -338,132 +261,24 @@ I also learned why voice traffic is sensitive to latency, jitter, and packet los
 
 ### Skills Practiced
 
-- VoIP configuration
-- Cisco CME
-- DHCP Option 150
-- IP phone registration
+- Voice over IP
+- Cisco Unified Communications Manager Express (CME)
 - SCCP
+- TCP signaling
 - RTP
-- QoS configuration
+- UDP voice traffic
 - Traffic classification
 - Priority queuing
 - Policy maps
 - Service policies
+- VoIP configuration
+- Cisco CME
+- DHCP Option 150
+- IP phone registration
+- QoS configuration
+- Policy maps
 - Voice connectivity verification
 - VoIP troubleshooting
-
----
-
-## 10 - Network Services and Management Protocols
-
-Build a small business network that combines common infrastructure services and network-management protocols.
-
-This project focuses on configuring several services together rather than creating a separate topology for every protocol.
-
-### Planned Topology
-
-```text
-                    R1
-                 Cisco Router
-                      |
-                     SW1
-                 Cisco Switch
-              /       |       \
-             /        |        \
-           PC1       PC2      SERVER1
-```
-
-### Services and Protocols
-
-- DHCP
-- DNS
-- Telnet
-- SSH
-- NTP
-- Syslog
-- SNMP
-
-### DHCP
-
-Configure SERVER1 to automatically provide network configuration to client devices.
-
-Clients should automatically receive:
-
-- IPv4 address
-- Subnet mask
-- Default gateway
-- DNS server
-
-### DNS
-
-Configure centralized DNS services and create DNS records that allow clients to resolve hostnames to IP addresses.
-
-Verify name resolution from client devices.
-
-### Telnet and SSH
-
-Configure remote CLI administration of network devices.
-
-Telnet will initially demonstrate unencrypted remote administration.
-
-SSH will then be configured as the secure replacement.
-
-The final configuration should favor SSH over Telnet.
-
-### NTP
-
-Configure centralized network time synchronization.
-
-Routers and switches will use the NTP server to maintain consistent clocks.
-
-Accurate time is particularly important when reviewing logs and troubleshooting network events.
-
-### Syslog
-
-Configure routers and switches to send logging information to a centralized Syslog server.
-
-Generate network events and verify that the events appear on the server.
-
-### SNMP
-
-Configure SNMP on network infrastructure devices to explore centralized network monitoring and management.
-
-The project will demonstrate how network-management systems can retrieve information about network devices.
-
-### What I Learned
-
-This project demonstrates how network services work together to support network operations.
-
-DHCP and DNS provide fundamental client network services.
-
-SSH provides secure remote administration.
-
-NTP ensures devices share consistent time.
-
-Syslog centralizes network event information.
-
-SNMP provides network monitoring and management capabilities.
-
-Together, these protocols form part of the operational foundation used to administer and troubleshoot networks.
-
-### Skills Practiced
-
-- DHCP configuration
-- DHCP client configuration
-- DNS configuration
-- DNS name resolution
-- Telnet
-- SSH
-- Secure remote administration
-- NTP
-- Time synchronization
-- Syslog
-- Centralized logging
-- SNMP
-- Network monitoring
-- Cisco IOS CLI
-- Network service verification
-- Protocol troubleshooting
 
 ---
 
@@ -494,12 +309,6 @@ Enterprise Wireless
         |
         v
 VoIP and QoS
-        |
-        v
-Network Services
-        |
-        v
-Network Management
         |
         v
 Troubleshooting
@@ -535,15 +344,10 @@ Troubleshooting
 
 - DHCP
 - DNS
-- NTP
 
 ## Network Administration
 
 - Cisco IOS CLI
-- Telnet
-- SSH
-- Syslog
-- SNMP
 
 ## Security
 
@@ -644,7 +448,7 @@ Each major lab can contain:
 Lab Folder/
 ├── README.md
 ├── Packet-Tracer-File.pkt
-└── screenshots/
+└── images.png
 ```
 
 Individual lab README files document:
@@ -712,13 +516,7 @@ The labs also reinforced the importance of verifying configurations instead of a
 - Quality of Service
 - DHCP
 - DNS
-- SSH
-- Telnet
-- NTP
-- Syslog
-- SNMP
 - Network monitoring
-- Centralized logging
 - Connectivity testing
 - Network troubleshooting
 - Technical documentation
